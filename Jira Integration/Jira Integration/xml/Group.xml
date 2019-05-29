@@ -1,0 +1,168 @@
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_group.xsd">
+<Header action="write" externalSource="NIKU" objectType="group" version="15.4.1.115"/>
+<groups>
+<group code="abz_jira_admin" isActive="true">
+<nls languageCode="ca" name="JIRA Administrator"/>
+<nls languageCode="cs" name="JIRA Administrator"/>
+<nls languageCode="da" name="JIRA Administrator"/>
+<nls languageCode="de" name="JIRA Administrator"/>
+<nls languageCode="en" name="JIRA Administrator"/>
+<nls languageCode="es" name="JIRA Administrator"/>
+<nls languageCode="fi" name="JIRA Administrator"/>
+<nls languageCode="fr" name="JIRA Administrator"/>
+<nls languageCode="hu" name="JIRA Administrator"/>
+<nls languageCode="it" name="JIRA Administrator"/>
+<nls languageCode="ja" name="JIRA Administrator"/>
+<nls languageCode="ko" name="JIRA Administrator"/>
+<nls languageCode="nl" name="JIRA Administrator"/>
+<nls languageCode="no" name="JIRA Administrator"/>
+<nls languageCode="pl" name="JIRA Administrator"/>
+<nls languageCode="pt" name="JIRA Administrator"/>
+<nls languageCode="ru" name="JIRA Administrator"/>
+<nls languageCode="sv" name="JIRA Administrator"/>
+<nls languageCode="tr" name="JIRA Administrator"/>
+<nls languageCode="zh" name="JIRA Administrator"/>
+<nls languageCode="zh_TW" name="JIRA Administrator"/>
+<members/>
+<rights>
+<GlobalRights>
+<Right id="odf_cst_abz_jira_translation_xog_access"/>
+<Right id="odf_cst_abz_jira_translation_create"/>
+<Right id="odf_cst_abz_jira_translation_view_all"/>
+<Right id="odf_cst_abz_jira_translation_edit_all"/>
+<Right id="odf_cst_abz_jira_validation_xog_access"/>
+<Right id="odf_cst_abz_jira_validation_create"/>
+<Right id="odf_cst_abz_jira_validation_view_all"/>
+<Right id="odf_cst_abz_jira_validation_edit_all"/>
+<Right id="odf_cst_abz_jira_xog_xog_access"/>
+<Right id="odf_cst_abz_jira_xog_create"/>
+<Right id="odf_cst_abz_jira_xog_view_all"/>
+<Right id="odf_cst_abz_jira_field_mpng_xog_access"/>
+<Right id="odf_cst_abz_jira_field_mpng_create"/>
+<Right id="odf_cst_abz_jira_field_mpng_view_all"/>
+<Right id="odf_cst_abz_jira_field_mpng_edit_all"/>
+<Right id="odf_cst_abz_jira_xog_edit_all"/>
+<Right id="odf_cst_abz_jira_xog_req_res_xog_access"/>
+<Right id="odf_cst_abz_jira_xog_req_res_create"/>
+<Right id="odf_cst_abz_jira_xog_req_res_view_all"/>
+<Right id="odf_cst_abz_jira_xog_req_res_edit_all"/>
+<Right id="odf_cst_abz_jira_feed_issues_xog_access"/>
+<Right id="odf_cst_abz_jira_feed_issues_create"/>
+<Right id="odf_cst_abz_jira_feed_issues_view_all"/>
+<Right id="odf_cst_abz_jira_feed_issues_edit_all"/>
+<Right id="odf_cst_abz_jira_intg_config_xog_access"/>
+<Right id="odf_cst_abz_jira_intg_config_navigate"/>
+<Right id="odf_cst_abz_jira_intg_config_create"/>
+<Right id="odf_cst_abz_jira_intg_config_view_all"/>
+<Right id="odf_cst_abz_jira_intg_config_edit_all"/>
+<Right id="odf_cst_abz_jira_intg_runlog_xog_access"/>
+<Right id="odf_cst_abz_jira_intg_runlog_navigate"/>
+<Right id="odf_cst_abz_jira_intg_runlog_create"/>
+<Right id="odf_cst_abz_jira_intg_runlog_view_all"/>
+<Right id="odf_cst_abz_jira_intg_runlog_edit_all"/>
+<Right id="odf_cst_jira_feed_worklog_xog_access"/>
+<Right id="odf_cst_jira_feed_worklog_create"/>
+<Right id="odf_cst_jira_feed_worklog_view_all"/>
+<Right id="odf_cst_jira_feed_worklog_edit_all"/>
+<Right id="odf_cst_abz_jira_wklog_xog_xog_access"/>
+<Right id="odf_cst_abz_jira_wklog_xog_create"/>
+<Right id="odf_cst_abz_jira_wklog_xog_view_all"/>
+<Right id="odf_cst_abz_jira_wklog_xog_edit_all"/>
+</GlobalRights>
+<InstanceRights>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_iss_xog_det" name="JIRA Issues XOG Details" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_lvl1_iss" name="JIRA Level 1 Issues" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_lvl1_iss_e" name="JIRA Level 1 Issues with Errors" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_lvl2_iss" name="JIRA Level 2 Issues" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_lvl2_iss_e" name="JIRA Level 2 Issues with Errors" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_wlog_det" name="JIRA Worklog XOG Details" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_wlog_e" name="JIRA Worklogs with Errors" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="abz_jira_worklogs" name="JIRA Worklogs" type="CMN_PAGES"/>
+</Right>
+<Right id="PageViewInstanceRight">
+<InstanceObject id="jira_integ_summary_page" name="Jira Integration Summary" type="CMN_PAGES"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_iss_xog_det" name="JIRA Issues XOG Details" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_level_iss" name="JIRA Level 1 Issues" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_lvl1_iss_e" name="JIRA Level 1 Issues with Errors" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_lvl2_iss_e" name="JIRA Level 2 Issues with Errors" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_lvl2_issues" name="JIRA Level 2 Issues" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_wlog_e" name="JIRA Worklogs with Errors" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_wlog_xog_det" name="JIRA Worklog XOG Details" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="abz_jira_worklogs" name="JIRA Worklogs" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="jira_integ_summary_portlet" name="JIRA Integration Summary" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_configAuditTrail" name="JIRA Integration Configuration Audit Trail" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_configList" name="JIRA Integration Configuration List" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_configProcesses" name="JIRA Integration Configuration Processes" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_configProperties" name="JIRA Integration Configuration Properties" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_configTabs" name="JIRA Integration Configuration Tabs" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_configTOC" name="JIRA Integration Configuration Contents" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_runlogAuditTrail" name="JIRA Integration Run Log Audit Trail" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_runlogList" name="JIRA Integration Run Log List" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_runlogProcesses" name="JIRA Integration Run Log Processes" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_runlogProperties" name="JIRA Integration Run Log Properties" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_runlogTabs" name="JIRA Integration Run Log Tabs" type="CMN_PORTLETS"/>
+</Right>
+<Right id="PortletViewInstanceRight">
+<InstanceObject id="odf.abz_jira_intg_runlogTOC" name="JIRA Integration Run Log Contents" type="CMN_PORTLETS"/>
+</Right>
+</InstanceRights>
+<InstanceOBSRights/>
+</rights>
+</group>
+</groups>
+</NikuDataBus>
